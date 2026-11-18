@@ -3,12 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Token Radar: pre-token protocols ranked by implied value</title>
+<title>Token Launch Radar</title>
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
-<a class="skip" href="#board">Skip to the board</a>
-<main id="board" tabindex="-1" aria-busy="true"></main>
+<header>
+  <h1>Token Launch Radar</h1>
+  <p>Ranked token launch valuations from a sealed DefiLlama snapshot, with farm plans.</p>
+</header>
+<div class="toolbar">
+  <input id="search" type="text" placeholder="Search protocols by name, slug or category…" autocomplete="off" spellcheck="false">
+</div>
+<main id="app"></main>
 <script src="../data.js"></script>
 <script src="app.js"></script>
 </body>
